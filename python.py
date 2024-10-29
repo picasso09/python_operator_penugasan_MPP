@@ -1,19 +1,20 @@
-#Penjumlahan
-a = 25
-a += a
-print(a)
-#hasil = 50
+# Program biodata penduduk desa x
+# Mmebuat variabel beserta isinya (nilainya)
 
-#pengurangan
-x = 31
-x -= x
-print(x)
+nama = "Zaki"
+alamat = 'Pekanbaru'
+umur = 19
+tinggi = 170.5
 
-# hasil = 0 ( kosong )
+sekolah = True
 
-#Perkalian
-y = 45
-y *=y
-print(y)
+# Mencetak isi variabel
 
-# hasil = 2025
+print("Nama:    ",nama)
+print("Alamat:  ",alamat)
+print("Umur:    ",umur)
+print("Tinggi:  ",tinggi)
+if(sekolah):
+    print("Status: sekolah")
+else:
+    print("Status: Libur")
